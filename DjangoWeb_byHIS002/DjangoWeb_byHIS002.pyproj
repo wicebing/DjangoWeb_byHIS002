@@ -29,6 +29,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="biHIS\admin.py" />
+    <Compile Include="biHIS\apps.py" />
+    <Compile Include="biHIS\migrations\__init__.py" />
+    <Compile Include="biHIS\models.py" />
+    <Compile Include="biHIS\tests.py" />
+    <Compile Include="biHIS\views.py" />
+    <Compile Include="biHIS\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="DjangoWeb_byHIS002\__init__.py" />
     <Compile Include="DjangoWeb_byHIS002\settings.py" />
@@ -36,6 +43,7 @@
     <Compile Include="DjangoWeb_byHIS002\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="biHIS\templates\biHIS\index.html" />
     <Content Include="frontend\.babelrc" />
     <Content Include="frontend\.editorconfig" />
     <Content Include="frontend\.eslintignore" />
@@ -21501,6 +21509,10 @@
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="biHIS\" />
+    <Folder Include="biHIS\migrations\" />
+    <Folder Include="biHIS\templates\" />
+    <Folder Include="biHIS\templates\biHIS\" />
     <Folder Include="DjangoWeb_byHIS002\" />
     <Folder Include="frontend\" />
     <Folder Include="frontend\build\" />
